@@ -1,3 +1,25 @@
-# Build folder and log file
-build/
-build.log
+# Ignoraciones específicas de Godot
+.importar /
+exportar.cfg
+export_presets.cfg
+
+# Traducciones importadas (generadas automáticamente a partir de archivos CSV)
+* .traducción
+
+# Ignora monoespecíficos
+.mono /
+
+.vscode /
+* .sublime- *
+.idea
+.fscaché
+* .tmp
+* .almacén de claves
+* ~
+* .swp
+* .swo
+.DS_Tienda
+.DS_Tienda ?
+ehthumbs.db
+Pulgares.db
+* .lnk
