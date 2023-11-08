@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Script/Line2D.gd" type="Script" id=1]
+
+[sub_resource type="Curve" id=1]
+_data = [ Vector2( 0.00714286, 0 ), 0.0, 0.0, 0, 0, Vector2( 1, 1 ), 0.0, 0.0, 0, 0 ]
+
+[node name="Line2D" type="Line2D"]
+show_behind_parent = true
+width = 4.0
+width_curve = SubResource( 1 )
+default_color = Color( 0.843137, 0.894118, 0.423529, 1 )
+script = ExtResource( 1 )

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Boss Groan (3).wav-9efc26b75d3f1a3ba4f957a57f7bc70f.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/Boss Groan (3).wav"
+dest_files=[ "res://.import/Boss Groan (3).wav-9efc26b75d3f1a3ba4f957a57f7bc70f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

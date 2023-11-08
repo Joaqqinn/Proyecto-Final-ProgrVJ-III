@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Revive.wav-724f5662f250f1cafd154126c965d480.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/Revive.wav"
+dest_files=[ "res://.import/Revive.wav-724f5662f250f1cafd154126c965d480.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

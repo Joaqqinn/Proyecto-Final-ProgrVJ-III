@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/Sprite/Zombie Boss/shot/projecetile.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Script/ArmZombie.gd" type="Script" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 10, 54.0789 )
+
+[node name="ArmZombie" type="RigidBody2D" groups=["Bullet Zombie"]]
+position = Vector2( 629, 374 )
+contacts_reported = 1
+contact_monitor = true
+script = ExtResource( 3 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2( -0.246521, -0.0307617 )
+rotation = 1.69501
+shape = SubResource( 1 )
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
+visible = false
+position = Vector2( -0.319032, -0.0289368 )
+rotation = 0.126641
+scale = Vector2( 5.34896, 1 )
+
+[connection signal="body_entered" from="." to="." method="_on_ArmZombie_body_entered"]
+[connection signal="screen_exited" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]
